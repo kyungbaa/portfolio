@@ -13,12 +13,6 @@ const theme = {
   highModalDeepShdow: 'rgba(11, 11, 11, 0.8) 0px 8px 24px',
   lowModalShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 3px',
   lowModalDeepShadow: 'rgba(0, 0, 0,0.6) 0px 2px 5px',
-
-  flexMixin: (align = 'center', justify = 'center') => `
-    display:flex;
-    align-items:${align};
-    justify-content:${justify};
-    `,
 };
 
 export default theme;
